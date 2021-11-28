@@ -1,0 +1,8 @@
+.link :hover {
+  text-decoration: underline;
+}
+.link {
+  display: flex;
+  color: black;
+  cursor: pointer;
+}

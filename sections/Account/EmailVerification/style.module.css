@@ -1,0 +1,268 @@
+.boxContain {
+  display: flex;
+  padding: 1.8em 1.2em;
+  margin: 1.5em 0;
+  box-shadow: 2px 2px 5px 5px #cacfd980;
+  border-radius: 8px;
+  width: fit-content;
+}
+.div2 {
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  margin-right: 1em;
+}
+.main {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.sub {
+  width: 27vw;
+  opacity: 0.6;
+  font-size: 1em;
+}
+.realativeIcon {
+  position: relative;
+}
+.absoluteIcon {
+  position: absolute;
+
+  transform: translate(20px, -42px);
+}
+.arrow {
+  display: flex;
+  align-items: center;
+  margin: 0 0.4em 0 0;
+  width: 30px;
+}
+/**#CC0B04*/
+.border {
+  border: 1px solid #cc0b04;
+}
+.text1 {
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: -0.1px;
+}
+.text2 {
+  font-size: 1.4em;
+
+  letter-spacing: -0.1px;
+  opacity: 0.4;
+  line-height: 28px;
+}
+
+.text1 {
+  font-size: 2.4em;
+  font-weight: 600;
+  letter-spacing: -0.1px;
+  font-family: "Roboto", sans-serif;
+}
+.text2 {
+  font-size: 1.2em;
+
+  letter-spacing: -0.1px;
+  opacity: 0.4;
+  line-height: 28px;
+  margin-top: -0.2em;
+}
+.blueText {
+  color: blue;
+}
+.newanddemo {
+}
+.flexdisplay {
+  display: flex;
+  margin: 1.5em 0 0 0;
+  justify-content: space-between;
+  width: 92%;
+}
+.flexdisplay1 {
+  display: flex;
+
+  justify-content: space-between;
+  width: 92%;
+}
+
+.hr {
+  border-bottom: 1px solid;
+
+  margin: 0.7em 0;
+  list-style: 10px;
+}
+.text {
+  margin: 0 1em;
+}
+@media (min-width: 800px) {
+  .hr {
+    width: 100px;
+  }
+  .center {
+    width: 500px;
+  }
+}
+@media (min-width: 992px) {
+  .hr {
+    width: 100px;
+  }
+  .center {
+    width: 500px;
+  }
+}
+
+@media (min-width: 100px) {
+  .hr {
+    width: 100px;
+
+    opacity: 0.6;
+  }
+
+  .center {
+    width: 500px;
+  }
+}
+@media (min-width: 700px) {
+  .hr {
+    width: 150px;
+
+    opacity: 0.6;
+  }
+
+  .center {
+    width: 80px;
+  }
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  width: 480px;
+  text-align: center;
+  margin: 2em 0 0 0;
+}
+.absolute {
+  margin-top: -180px;
+  margin-bottom: 100px;
+  position: absolute;
+
+  font-size: 20px;
+
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+@media (max-width: 700px) {
+  .flexdisplay {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1700px) {
+  .flexdisplay {
+    width: 95%;
+  }
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+.rightname {
+  width: 49%;
+}
+.leftname {
+  width: 49%;
+}
+.mobilesvg {
+  display: flex;
+  width: 20em;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textdiv {
+  display: flex;
+  flex-direction: column;
+  width: 22em;
+  text-align: center;
+}
+.email {
+  color: red;
+  font-size: 1.4em;
+}
+.textverification {
+  font-size: 1.1em;
+}
+.reactcodeinput {
+  padding: 4em 0 4em 1em;
+}
+.container1 {
+  padding: 0 0 0 2em;
+}
+.box {
+  background-color: #b3b5b648;
+  height: 50px !important;
+  width: 35px !important;
+  border: 0px 0px 0px 0px !important;
+  border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) red
+    rgba(255, 255, 255, 0);
+  border-radius: 3px;
+}
+.box:focus {
+  outline: none;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+.absolute {
+  position: absolute;
+  width: 100%;
+  height: 150%;
+  background-color: rgba(49, 53, 53, 0.294);
+  z-index: 12;
+}
+.contain {
+  background-color: rgb(255, 255, 255);
+  width: 38em;
+  height: 20em;
+  z-index: 20;
+  margin-top: 16%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal1 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+
+  z-index: 999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.absolute1 {
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  background-color: rgba(48, 52, 56, 0.513);
+}
+.contain1 {
+  position: fixed;
+  z-index: 99999999;
+}

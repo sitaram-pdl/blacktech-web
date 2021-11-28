@@ -1,0 +1,103 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.image {
+  width: 280px;
+  height: 360px;
+  border-radius: 10px;
+  filter: grayscale(100%);
+  
+  overflow: hidden;
+}
+.image1 {
+  width: 360px;
+  height:420px;
+ object-fit: cover;
+  filter: grayscale(100%);
+}
+.mapBox {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px 50px 0;
+  background-color: rgba(240, 248, 255, 0);
+}
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0.5em 0 0 0;
+}
+.mapBox:hover .image {
+  filter: grayscale(0%);
+}
+.mapBox:hover .image1 {
+  filter: grayscale(0%);
+}
+.position {
+  font-size: 18px;
+}
+
+.mapBox:hover {
+  transform: scale(1.06);
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+  border-radius: 10px;
+}
+
+.relative {
+  position: relative;
+  width: 280px;
+  height: 350px;
+  overflow: hidden;
+  display: flex;
+}
+
+.absolute {
+  display: none;
+}
+.relative:hover .absolute {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 28%;
+  animation-name: example;
+  animation-duration: 0.3s;
+}
+
+@keyframes example {
+  0% {
+    left: 0px;
+    bottom: 0px;
+  }
+
+  100% {
+    left: 0px;
+    bottom: 20px;
+  }
+}
+.iconContain {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(20, 20, 22);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1em;
+  margin: 0.4em;
+
+}
+.iconContain:hover {
+  color: aliceblue;
+}

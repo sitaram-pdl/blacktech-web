@@ -1,0 +1,38 @@
+/* .margintop {
+  padding-top: 4em;
+} */
+
+@media (max-width: 1000px) {
+  .image {
+    display: none;
+  }
+  .margintop {
+    padding-top: 4em;
+  }
+}
+.image2 {
+  width: 800px;
+  margin-left: -3em;
+}
+@media (max-width: 1800px) {
+  .image2 {
+    width: 700px;
+    margin: 0 0 0 0;
+  }
+  .margintop {
+    padding-top: 0;
+  }
+}
+@media (max-width: 1400px) {
+  .image2 {
+    width: 500px;
+  }
+  /* .margintop {
+    padding-top: 4em;
+  } */
+}
+@media (max-width: 1200px) {
+  .margintop {
+    padding-top: 4em;
+  }
+}

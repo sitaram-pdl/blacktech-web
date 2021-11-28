@@ -1,0 +1,36 @@
+.imageIcon {
+  width: 40px;
+  height: 40px;
+}
+.fixedBotton {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 60px;
+  height: 60px;
+  z-index: 99;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  background-color: rgb(17, 131, 131);
+  position: absolute;
+  bottom: -100%;
+  right: 40%;
+}
+
+@media (max-width: 500px) {
+  .absolute {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
+  .displaynone {
+    display: none;
+  }
+}
+.displaynone {
+}

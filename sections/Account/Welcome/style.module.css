@@ -1,0 +1,169 @@
+.newanddemo {
+}
+.flexdisplay {
+  display: flex;
+  margin: 1.5em 0 0 0;
+  justify-content: space-between;
+  width: 92%;
+}
+.flexdisplay1 {
+  display: flex;
+
+  justify-content: space-between;
+  width: 92%;
+}
+
+.hr {
+  border-bottom: 1px solid;
+
+  margin: 0.7em 0;
+  list-style: 10px;
+}
+.text {
+  margin: 0 1em;
+}
+@media (min-width: 800px) {
+  .hr {
+    width: 100px;
+  }
+  .center {
+    width: 500px;
+  }
+}
+@media (min-width: 992px) {
+  .hr {
+    width: 100px;
+  }
+  .center {
+    width: 500px;
+  }
+}
+
+@media (min-width: 100px) {
+  .hr {
+    width: 100px;
+
+    opacity: 0.6;
+  }
+
+  .center {
+    width: 500px;
+  }
+}
+@media (min-width: 700px) {
+  .hr {
+    width: 150px;
+
+    opacity: 0.6;
+  }
+
+  .center {
+    width: 80px;
+  }
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  width: 480px;
+  text-align: center;
+  margin: 2em 0 0 0;
+}
+.absolute {
+  margin-top: -180px;
+  margin-bottom: 100px;
+  position: absolute;
+
+  font-size: 20px;
+
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+@media (max-width: 700px) {
+  .flexdisplay {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1700px) {
+  .flexdisplay {
+    width: 95%;
+  }
+}
+.bottomabsolute {
+  left: 60px;
+  bottom: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 10% 0 0;
+}
+@media (min-width: 1000px) {
+  .bottomabsolute {
+    margin-top: 10em;
+  }
+}
+
+@media (max-width: 1000px) {
+  .bottomabsolute {
+    margin-top: 3em;
+  }
+  .mapContain {
+    width: 500px !important;
+  }
+}
+@media (max-width: 580px) {
+  .mapContain {
+    width: 400px !important;
+
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.mapContain {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.mapBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1em;
+  cursor: pointer;
+}
+
+.mapBox :hover {
+  transform: translate(0, -1px) scale(1);
+  box-shadow: 20px 20px 50px rgba(128, 128, 128, 0.452) (128, 128, 128, 0.472)
+    (128, 128, 128, 0.472) (128, 128, 128, 0.472) (128, 128, 128, 0.472)
+    (128, 128, 128, 0.472) (128, 128, 128, 0.472) (128, 128, 128, 0.472)
+    (128, 128, 128, 0.472) (128, 128, 128, 0.472) (128, 128, 128, 0.589);
+}
+.image2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 9px #aaaaaa;
+  background-color: #ffffff;
+}
+.mapName {
+  margin-top: 1em;
+  font-size: 1.1em;
+
+  font-weight: 400;
+}

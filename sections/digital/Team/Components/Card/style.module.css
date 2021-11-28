@@ -1,0 +1,37 @@
+.top1{
+    color:white;
+font-size:30px;
+}
+.top2{
+    color:white;
+font-size:24px;
+margin-bottom: 30px;
+}
+@media(max-width:800px){
+    .top1{
+        color:white;
+    font-size:28px;
+    margin-left: -20px;
+    }
+    .top2{
+        color:white;
+    font-size:20px;
+    margin-left: -20px;
+  
+    }
+
+}
+@media(max-width:500px){
+    .top1{
+        color:white;
+    font-size:20px;
+    margin-left: -20px;
+    }
+    .top2{
+        color:white;
+    font-size:14px;
+    margin-left: -20px;
+  
+    }
+
+}

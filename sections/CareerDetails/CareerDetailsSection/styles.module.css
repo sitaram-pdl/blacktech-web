@@ -1,0 +1,11 @@
+.button{
+    background-color:#ff5722 ;
+    color: aliceblue;
+    width: fit-content;
+    padding:1em 2em;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.button:hover{
+    opacity: 0.8;
+}

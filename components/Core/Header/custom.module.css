@@ -1,0 +1,21 @@
+.image {
+  width: 99px;
+}
+@media only screen and (max-width: 600px) {
+  .image {
+    margin-left: 1em;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .image {
+    margin-left: 12em;
+  }
+}
+.navbarImportant {
+  padding: 0 !important;
+  font-size: 18px !important;
+}
+
+.navbar {
+  padding: 0 !important;
+}
